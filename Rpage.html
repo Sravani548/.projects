@@ -6,22 +6,28 @@
     <title>Registration Form</title>
     <style>
         *{
-            background-color: bisque;
+            background-color:lawngreen;
         }
         div{
-            border: 2px solid black;
-            width: 500px;
-            text-align: center;
-            margin: auto;
-            padding: 5px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-weight: 50;
+        }
+        th{
+            font-weight: 100;
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">REGISTRATION FORM</h1>
     <div>
     <form action="submit.html" target="_blank">
+        
     <table>
+        <tr>
+            <th colspan="2"><h1>REGISTRATION FORM</h1></th>
+        </tr>
         <tr>
             <td><label for="">First Name</label></td>
             <td><input type="text"><br><br></td>
@@ -85,10 +91,12 @@
             <td><label for="">Address</label></td>
             <td><textarea cols="20" rows="10"></textarea><br><br></td>
         </tr>
-        
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td> 
+        </tr>
     </table>
-    <input type="submit">
-    <input type="reset">
+    
     </div>
 </form>
  
