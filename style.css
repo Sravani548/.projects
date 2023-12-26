@@ -1,10 +1,15 @@
-*{
-    background-color: rgb(217, 177, 209);
+body{
+    background: linear-gradient(rgba(46, 38, 38, 0.5),rgba(66, 57, 57, 0.5)),url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 div{
+    color: aqua;
     padding: 50px;
     text-align: center;
-    border: 5px inset brown;
+    border: 5px inset rgb(216, 208, 208);
     position: absolute;
     top: 50%;
     left: 50%;
