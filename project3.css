@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size:x-large;
+}
+ul li{
+    font-size: x-large;
+}
+
+.bt
+{
+    size: 50px;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    background-color: aqua;
+}
+a{
+    font-size: large;
+    padding: 20px;
+    border: 10px;
+    text-decoration:none ;
+    display: flex;
+}
+button{
+    background-color: aqua;
+}
+.images{
+    display:flex;
+}
