@@ -3,6 +3,7 @@ h1{
 }
 
 p{
+    padding:20px;
     text-align: justify;
     font-size:x-large;
 }
@@ -16,6 +17,9 @@ ul li{
 
 .bt
 {
+    height:20px;
+    width:30px;
+    border-radius:10px:
     size: 50px;
     display: grid;
     place-items: center;
@@ -49,8 +53,8 @@ button{
         grid-template-columns:auto;
     }
     img{
-        display:grid;
-        grid-template-columns:auto;
+        display:flex;
+        flex-direction:column;
         margin:auto;
     }
 }
