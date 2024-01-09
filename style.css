@@ -53,3 +53,10 @@ h1{
 h2{
     font-style: italic;
 }
+
+@media (max-width:600px) {
+    #heros_library{
+        display: grid ;
+        grid-template-columns: auto;
+    }
+}
